@@ -1,9 +1,15 @@
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-row: ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25% 75%;
 }
 
-nav {
+li {
+    list-style-type: none
+}
 
+p {
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
 }
