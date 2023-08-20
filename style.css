@@ -1,0 +1,112 @@
+body {
+    background-color: #FAFBF1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #212121;
+    margin: auto 0;
+}
+
+nav {
+    margin: auto 40px;
+    margin-top: 60px;
+    grid-area: navigation;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "home workResume contact";
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.home {
+    border-bottom: solid 1px #212121;
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
+
+.home img {
+    min-width: 50%;
+    max-width: 300px;
+}
+
+.home a {
+    grid-area: home;
+}
+
+.workResume {
+    grid-area: workResume;
+    display: flex inline;
+    margin-left: 100px;
+    margin-right: 0px;
+    border-bottom: solid 1px #212121;
+    padding-bottom: 20px;
+}
+
+.workResume a {
+    margin-right: 72px;
+}
+
+.contact {
+    grid-area: contact;
+    text-align: right;
+    border-bottom: solid 1px #212121;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #212121;
+}
+
+#intro {
+    margin: auto 40px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "laurenPhoto aboutText aboutText";
+}
+
+#laurenPhoto {
+    grid-area: laurenPhoto;
+}
+
+#laurenPhoto img {
+    width: 95%;
+    margin-top: 40px;
+}
+
+#aboutText {
+    grid-area: aboutText;
+}
+
+#aboutText h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 100%;
+    margin-left: 100px;
+}
+
+#aboutText p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+    }
+
+p {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #212121;
+    color:#FAFBF1;
+    border: none;
+    padding: 20px 30px 20px 30px;
+    margin-right: 0px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
