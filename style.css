@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-    margin: auto 40px;
+    margin: auto 80px;
     margin-top: 60px;
     grid-area: navigation;
     display: grid;
@@ -59,7 +59,7 @@ a {
 }
 
 #intro {
-    margin: auto 40px;
+    margin: auto 80px;
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
